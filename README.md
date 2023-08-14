@@ -2,6 +2,13 @@
 ## About kk-app
 Small ERP for transportation companies that allows drivers to save information about cargo. The project consists of a web dashboard for supervisors, an Android app for drivers and a backend used by forementioned services.
 
+You can find the source codes for the different parts of the project in their own repositories:
+
+[Mobile app](https://github.com/kaivola/kk-app-mobile)
+
+[Web](https://github.com/kaivola/kk-app-frontend)
+
+[Backend](https://github.com/kaivola/kk-app-backend)
 
 
 <!-- TechStack -->
