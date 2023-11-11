@@ -14,7 +14,8 @@ You can find the source codes for the different parts of the project in their ow
 
 You can try out the dashboard at https://demo.kaivola.cloud <br />
 Username: demo <br />
-Password: demo
+Password: demo <br />
+<sub>Please note: the "Luo raportti" button is non-functional on purpose in the preview version</sub>
 
 <!-- TechStack -->
 ### Tech Stack
