@@ -1,6 +1,6 @@
 <!-- About the Project -->
 ## About kk-app
-Small ERP for transportation companies that allows drivers to save information about cargo. The project consists of a web dashboard for supervisors, an Android app for drivers and a backend used by forementioned services.
+Small app for transportation companies that allows drivers to save information about cargo. The project consists of a web dashboard for supervisors and an Android app for drivers.
 
 You can find the source codes for the different parts of the project in their own repositories:
 
@@ -10,6 +10,11 @@ You can find the source codes for the different parts of the project in their ow
 
 [Backend](https://github.com/kaivola/kk-app-backend)
 
+### Live demo
+
+You can try out the dashboard at https://demo.kaivola.cloud <br />
+Username: demo <br />
+Password: demo
 
 <!-- TechStack -->
 ### Tech Stack
@@ -55,9 +60,9 @@ You can find the source codes for the different parts of the project in their ow
 <summary>Cloud</summary>
   <ul>
     <li>EC2</li>
-    <li>S3</li>
     <li>ECS</li>
     <li>ECR</li>
+    <li>S3</li>
     <li>Lambda</li>
   </ul>
 </details>
@@ -68,18 +73,19 @@ You can find the source codes for the different parts of the project in their ow
 ## Todo
 
 #### Mobile
-* [ ] Finish authentication
+* [ ] Add waybill view
+* [x] Finish authentication
 * [x] Add http request caching
 * [x] Implement in-app updating
    
 #### Web
-* [ ] Implement JWT authentication
-* [ ] Generic table component with filtering and pagination
-* [ ] Deploy on AWS
+* [x] Implement authentication
+* [x] Generic table component with filtering and pagination
+* [x] Deploy on AWS
 * [x] Switch to Next.js 13
 * [x] Switch to Tailwind CSS  
 
 #### Backend
-* [ ] Read cargo information from receipts using OCR
+* [ ] Read cargo information from pictures using OCR
 * [x] Serve mobile app apks from S3 bucket
 * [x] Controller level exception handling
