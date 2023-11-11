@@ -79,6 +79,7 @@ Password: demo
 * [x] Implement in-app updating
    
 #### Web
+* [ ] Table sorting
 * [x] Implement authentication
 * [x] Generic table component with filtering and pagination
 * [x] Deploy on AWS
